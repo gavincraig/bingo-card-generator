@@ -22,7 +22,7 @@ const generateNumbers = () => {
 const getCards = (numberOfCards: number) => {
   const cards = [];
   for(let i = 0; i < numberOfCards; i++) {
-    cards.push(<BingoCard numbers={generateNumbers()} />)
+    cards.push(<BingoCard numbers={generateNumbers()} title={'Bingo!'} />)
   }
   return cards;
 }
